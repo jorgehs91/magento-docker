@@ -1,3 +1,6 @@
+## Todo:
+Use environment variables
+
 ### PHPStorm Xdebug Setup
 #### Docker setup
 1. File > Settings > Build, Execution, Deployment > Docker.
