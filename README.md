@@ -1,5 +1,5 @@
-## Todo:
-Use environment variables
+## How to use:
+1. docker-compose up --build
 
 ### PHPStorm Xdebug Setup
 #### Docker setup
@@ -17,3 +17,6 @@ Use environment variables
 2. Create new connection with the name and host of your application url.
 3. Check the path mapping option.
 4. In right of File/Directory, insert the absolut path of your application (by default /var/www/html).
+
+## Todo:
+Use environment variables
