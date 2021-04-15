@@ -1,0 +1,2 @@
+magento-new-installation:
+	docker exec -i php sh -c 'bin/magento setup:install --base-url=http://magento.localhost --db-host=mysql --db-name=magento-clean --db-user=magento --db-password=1111 --admin-firstname=Magento --admin-lastname=User --admin-email=user@example.com --admin-user=admin --admin-password=admin123 --language=en_US --currency=USD --timezone=America/Chicago --cleanup-database --use-rewrites=1 --search-engine=elasticsearch7 --elasticsearch-host=elasticsearch --elasticsearch-port=9200'
